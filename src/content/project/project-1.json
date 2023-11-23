@@ -1,0 +1,12 @@
+{
+  "title": "My custom title",
+  "tags": ["This is a tag", "Another tag"],
+  "videoUrl": "http://google.com",
+  "attachedFiles": ["https://www.ekumenlabs.com/images/logo.png"],
+  "repositoryLink": "https://github.com/mattborghi/astro-content-collections",
+  "description": {
+    "problem": "The problem",
+    "solution": "The solution",
+    "expertice": "The expertice"
+  }
+}

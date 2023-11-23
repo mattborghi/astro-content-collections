@@ -1,0 +1,11 @@
+{
+  "title": "Another title",
+  "tags": [],
+  "videoUrl": "http://google.com",
+  "attachedFiles": [],
+  "description": {
+    "problem": "The problem",
+    "solution": "The solution",
+    "expertice": "The expertice"
+  }
+}

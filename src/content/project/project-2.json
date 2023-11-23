@@ -1,0 +1,11 @@
+{
+  "title": "Another title",
+  "tags": ["This is a tag", "Another tag 2"],
+  "videoUrl": "http://google.com",
+  "attachedFiles": ["https://www.ekumenlabs.com/images/logo.png"],
+  "description": {
+    "problem": "The problem",
+    "solution": "The solution",
+    "expertice": "The expertice"
+  }
+}
