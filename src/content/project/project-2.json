@@ -1,7 +1,7 @@
 {
   "title": "Another title",
   "tags": ["This is a tag", "Another tag 2"],
-  "videoUrl": "http://google.com",
+  "videoUrl": "https://www.youtube.com/embed/dsTXcSeAZq8",
   "attachedFiles": ["https://www.ekumenlabs.com/images/logo.png"],
   "description": {
     "problem": "The problem",

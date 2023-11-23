@@ -1,0 +1,33 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { getCollection } from "astro:content";
+// 1. Generate a new path for every collection entry
+export async function getStaticPaths() {
+  const projectEntries = await getCollection("project");
+  return projectEntries.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+// 2. For your template, you can get the entry directly from the prop
+const { entry } = Astro.props;
+
+const { title, videoUrl } = entry.data;
+---
+
+<Layout title=`Ekumen Project: ${title}`>
+  <h1>{title}</h1>
+  <iframe
+    width="560"
+    height="315"
+    src={videoUrl}
+    title="YouTube video player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+    allowfullscreen></iframe>
+</Layout>
+
+<style>
+  h1 {
+    color: white;
+  }
+</style>
